@@ -1,0 +1,104 @@
+<!--   <?xml version="1.0" encoding="utf-8"?> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pubs"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#C6C6C6" 
+    >
+    
+    <TextView
+        android:id="@+id/pub_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/no_new_destination" />
+    
+    <TextView
+        android:id="@+id/pub_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/no_address" /> 
+  <!--  In case of time limit
+   <TextView
+        android:id="@+id/pub_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:text="@string/pub_time" />
+        -->
+   <TextView
+        android:id="@+id/pub_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/pub_distance" />
+   <TextView
+        android:id="@+id/pub_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/pub_duration" />
+   <RadioGroup
+        android:id="@+id/transportType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/walking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/walking" 
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/biking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/biking" />
+ 
+    </RadioGroup>   
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp" >
+        
+        <Button
+            android:id="@+id/pubs_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showPub"
+            android:text="@string/new_destination" 
+            android:layout_margin="7dp"
+            style="?android:attr/buttonBarButtonStyle"/>
+        <Button
+            android:id="@+id/pub_on_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pubOnMap"
+            android:text="@string/pub_onMap"
+            android:layout_margin="7dp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>   
+    
+    
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="150dp"
+        android:layout_margin="20dp"
+        android:text="Unavailable TO detect location bliad"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    
+    <Button 
+        android:id="@+id/b_close_dialog"
+        android:layout_height="30dp"
+        android:layout_width="60dp"
+        android:layout_marginBottom="20dp"        
+        android:text="OK"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        />
+        
+
+</LinearLayout>

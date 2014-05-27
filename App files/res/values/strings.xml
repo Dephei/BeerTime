@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name">Beer Time</string>
+
+    <string-array name="menu_array">
+        <item>Map</item>
+        <item>Pubs</item>
+        <item>Destination</item>
+        <item>Profile</item>
+        <item>Help</item>
+    </string-array>
+
+    <string name="choose_account">Choose Account</string>
+    <string name="continue_toGame">Continue</string>
+    <string name="no_new_destination">Destination not Chosen</string>
+    <string name="pub_time">Timer not Started</string>
+    <string name="pub_distance"></string>
+    <string name="pub_duration"></string>
+    <string name="walking">walking</string>
+    <string name="biking">bicycling</string>
+    <string name="no_address"></string>
+    <string name="new_destination">New Destination</string>
+    <string name="pub_onMap">View on Map</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="accounts">Accounts</string>
+    <string name="profile_image">profile image</string>
+    <string name="no_user_selected">No User Selected</string>
+    <string name="title_activity_splashing">Beer Time 1.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_score">Your score:</string>
+    <string name="tv_score">Score</string>
+    <string name="tv_pub">Pub</string>
+    <string name="button_ocr">Recognize Pub name</string>
+    <string name="pub_ocr">Pub Name</string>
+    <string name="destination_reached">Confirm Destination</string>
+    <string name="helptext">\n How do I log in?\n \n
+By choosing your current Google account that available on your phone, no passwords needed. You can use multiple accounts and the game progress will be tracked for individual one. \n \n
+Map will not show up:\n \n
+Make sure the internet connection is on. The user location also depends on internet connection.\n \n
+How do I get new Destination? \n \n
+Press New Destination and then accept to remove the current location.\n \n
+How do I get the map?\n \n
+When a new target is chosen press View on Map or select Map in menu.\n \n
+Which type of direction can I get? \n \n
+Walking and biking directions with corresponding distances and estimated travel times. The times and routes are updates every 30 second. \n \n
+What is the goal of the game? \n \n
+The challenge is to reach all the available destinations in your city. It is checked in two stages: first you take a picture of the pub name, the application recognizes the text and if it matches then you request location check. If the coordinates coincide to those of the target within the accuracy level you get points and the place is added to your profile. This way you can have a local competition with your friends.\n \n
+What city does it work in? \n \n
+Just Gothenburg currently but pubs can be added to the database at any desired time and to any city.\n
+</string>
+
+</resources>
